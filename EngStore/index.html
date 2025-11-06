@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Discount Store Tanzania | Quality Engineering Tools & Equipment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+
+    <div class="container main-header">
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fas fa-tools"></i>
+            </div>
+            <h1> ENGINEERING DISCOUNT STORE TANZANIA </h1>
+        </div>
+        <div class="search-cart">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for tools...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+                <div class="search-results" id="searchResults"></div>
+            </div>
+            <div class="cart-icon" id="cartIcon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <ul class="container">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#categories"><i class="fas fa-th-large"></i> Categories</a></li>
+            <li><a href="#products"><i class="fas fa-box"></i> Products</a></li>
+            <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <h2>Quality Engineering Tools & Equipment</h2>
+            <p>YOUR ONE-STOP SHOP FOR ALL ENGINEERING SUPPLIES - FROM CIVIL TO COMPUTER ENGINEERING AND EVERYTHING IN ETWEEN.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#categories" class="btn btn-secondary">View Categories</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="container" id="categories">
+    <div class="section-title">
+        <h2>Engineering Categories</h2>
+        <p>Explore our wide range of engineering tools and equipment</p>
+    </div>
+    <div class="categories">
+        <!-- Civil Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-hard-hat"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/civil.jpeg');"></div>
+            <div class="category-content">
+                <h3>Civil Engineering</h3>
+                <ul>
+                    <li>Overcoats</li>
+                    <li>Safety Boots</li>
+                    <li>Drawing Board</li>
+                    <li>Scale Ruler</li>
+                    <li>Set Square</li>
+                    <li>A3 Papers</li>
+                    <li>T-square</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Electrical & Electronics Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/electronics.jpeg');"></div>
+            <div class="category-content">
+                <h3>Electrical & Electronics Engineering</h3>
+                <ul>
+                    <li>Safety Boots</li>
+                    <li>Overcoats</li>
+                    <li>Scale Ruler</li>
+                    <li>Multimeters</li>
+                    <li>Soldering Kits</li>
+                    <li>Wire Strippers</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Mechanical Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-cogs"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/mechanical.jpeg');"></div>
+            <div class="category-content">
+                <h3>Mechanical Engineering</h3>
+                <ul>
+                    <li>Overcoats</li>
+                    <li>Safety Boots</li>
+                    <li>Drawing Board</li>
+                    <li>Scale Ruler</li>
+                    <li>Set Square</li>
+                    <li>A3 Papers</li>
+                    <li>Calculators</li>
+                    <li>T-square</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Computer Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/computer.jpg');"></div>
+            <div class="category-content">
+                <h3>Computer Engineering</h3>
+                <ul>
+                    <li>Calculators</li>
+                    <li>Labcoats</li>
+                    <li>Microcontrollers</li>
+                    <li>Development Boards</li>
+                    <li>Toolkits</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Information Technology -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-network-wired"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/IT.jpeg');"></div>
+            <div class="category-content">
+                <h3>Information Technology</h3>
+                <ul>
+                    <li>Calculators</li>
+                    <li>Labcoats</li>
+                    <li>Networking Tools</li>
+                    <li>Cable Testers</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Telecommunications Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-satellite-dish"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/tele.jpeg');"></div>
+            <div class="category-content">
+                <h3>Telecommunications Engineering</h3>
+                <ul>
+                    <li>Safety Boots</li>
+                    <li>Overcoats</li>
+                    <li>Scale Ruler</li>
+                    <li>Signal Meters</li>
+                    <li>Cable Tools</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Chemical Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-flask"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/chemical.jpg');"></div>
+            <div class="category-content">
+                <h3>Chemical Engineering</h3>
+                <ul>
+                    <li>Labcoats</li>
+                    <li>Safety Goggles</li>
+                    <li>Protective Gloves</li>
+                    <li>Lab Equipment</li>
+                    <li>Measuring Instruments</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Biomedical Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-stethoscope"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/biomedical.jpeg');"></div>
+            <div class="category-content">
+                <h3>Biomedical Engineering</h3>
+                <ul>
+                    <li>Medical Instruments</li>
+                    <li>Labcoats</li>
+                    <li>Diagnostic Tools</li>
+                    <li>Safety Equipment</li>
+                    <li>Testing Devices</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Oil & Gas Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-oil-well"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/oil and gas.jpeg');"></div>
+            <div class="category-content">
+                <h3>Oil & Gas Engineering</h3>
+                <ul>
+                    <li>Fire-Resistant Clothing</li>
+                    <li>Safety Helmets</li>
+                    <li>Gas Detectors</li>
+                    <li>Pipeline Tools</li>
+                    <li>Pressure Gauges</li>
+                    <li>Valve Tools</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Mining Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-mountain"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/mining.jpeg');"></div>
+            <div class="category-content">
+                <h3>Mining Engineering</h3>
+                <ul>
+                    <li>Hard Hats</li>
+                    <li>High-Visibility Vests</li>
+                    <li>Geological Hammers</li>
+                    <li>Rock Testing Equipment</li>
+                    <li>Mine Safety Equipment</li>
+                    <li>Surveying Tools</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Environmental Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/environmental.jpeg');"></div>
+            <div class="category-content">
+                <h3>Environmental Engineering</h3>
+                <ul>
+                    <li>Water Testing Kits</li>
+                    <li>Air Quality Monitors</li>
+                    <li>Soil Sampling Tools</li>
+                    <li>Environmental Meters</li>
+                    <li>Protective Gear</li>
+                    <li>Lab Equipment</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Laboratory Engineering -->
+        <div class="category-card">
+            <div class="category-icon">
+                <i class="fas fa-vial"></i>
+            </div>
+            <div class="category-img" style="background-image: url('images/laboratory.jpg');"></div>
+            <div class="category-content">
+                <h3>Laboratory Engineering</h3>
+                <ul>
+                    <li>Lab Coats & Protective Gear</li>
+                    <li>Microscopes & Magnifiers</li>
+                    <li>Testing Equipment</li>
+                    <li>Measuring Instruments</li>
+                    <li>Safety Equipment</li>
+                    <li>Lab Glassware</li>
+                </ul>
+                <a href="#products" class="btn btn-category">View Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="container" id="products">
+    <div class="section-title">
+        <h2>Featured Products</h2>
+        <p>Top quality engineering tools at unbeatable prices</p>
+    </div>
+    <div class="products" id="productsContainer">
+        <!-- Products will be dynamically loaded from JavaScript -->
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="container" id="about">
+    <div class="section-title">
+        <h2>About Us</h2>
+        <p>Your trusted partner in engineering supplies</p>
+    </div>
+    <div class="about-content">
+        <div class="about-text">
+            <h3>Engineering Discount Store Tanzania</h3>
+            <p>We are Tanzania's leading supplier of engineering tools and equipment, serving students, professionals, and institutions across the country.</p>
+            <p>Founded with the mission to make quality engineering tools accessible and affordable, we've been serving the engineering community for over 5 years.</p>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Products</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">Worldwide</div>
+                    <div class="stat-label">Delivery</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-image">
+            <!-- Main Store Image -->
+            <div class="about-main-image">
+                <div class="image-container">
+                    <img src="images/store.png" alt="Engineering Discount Store Store Front">
+                    <div class="image-overlay">
+                        <h4>Store Front</h4>
+                        <p>Our main store location in Dar es Salaam</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Images Grid -->
+            <div class="about-image-grid">
+                <div class="about-grid-item">
+                    <div class="image-container">
+                        <img src="images/tools.png" alt="Store Interior Structure">
+                        <div class="image-overlay">
+                            <h4>Interior Structure</h4>
+                            <p>Spacious and organized store layout</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-grid-item">
+                    <div class="image-container">
+                        <img src="images/equipment.png" alt="Equipment Section">
+                        <div class="image-overlay">
+                            <h4>Equipment Section</h4>
+                            <p>Wide range of engineering equipment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-grid-item">
+                    <div class="image-container">
+                        <img src="images/services.avif" alt="Professional Team">
+                        <div class="image-overlay">
+                            <h4>Professional Team</h4>
+                            <p>Our experienced staff members</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-grid-item">
+                    <div class="image-container">
+                        <img src="images/services.avif" alt="Customer Service">
+                        <div class="image-overlay">
+                            <h4>Customer Service</h4>
+                            <p>Dedicated customer support team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional About Us Content -->
+    <div class="about-features">
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-shipping-fast"></i>
+            </div>
+            <h4>Fast Delivery</h4>
+            <p>We deliver across The World within 2-5 business days</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-award"></i>
+            </div>
+            <h4>Quality Guarantee</h4>
+            <p>All our products come with quality assurance</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-headset"></i>
+            </div>
+            <h4>Expert Support</h4>
+            <p>Get technical guidance from engineering professionals</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-hand-holding-usd"></i>
+            </div>
+            <h4>Best Prices</h4>
+            <p>Competitive pricing for students and professionals</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="container" id="contact">
+    <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>Get in touch with our team</p>
+    </div>
+    <div class="contact-content">
+        <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <ul class="contact-details">
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Address</strong><br>
+                        Dar es Salaam, Tanzania
+                    </div>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email</strong><br>
+                        info@engineeringdiscount.co.tz
+                    </div>
+                </li>
+                <li>
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <strong>WhatsApp</strong><br>
+                        +255 763 782 257
+                    </div>
+                </li>
+            </ul>
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <div class="social-grid">
+                    <a href="https://www.threads.com/@fidelis_faustin?xmt=AQGzKzk9u9WY4_av_tnjXfYZ-8lQAW8VyQonjfQA0ih9hM" target="_blank" class="social-btn instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://wa.me/255763782257" target="_blank" class="social-btn whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="#" target="_blank" class="social-btn tiktok">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Cart Modal -->
+<div class="cart-modal" id="cartModal">
+    <div class="cart-header">
+        <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
+        <button class="close-cart" id="closeCart">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+        <!-- Cart items will be added here dynamically with images -->
+        <div class="empty-cart" id="emptyCart">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Your cart is empty</p>
+            <small>Add some products to get started</small>
+        </div>
+    </div>
+    <div class="cart-total">
+        <div class="total-row">
+            <span>Subtotal:</span>
+            <span id="subtotal">TZS 0</span>
+        </div>
+        <div class="total-row">
+            <span>Shipping:</span>
+            <span>TZS 10,000</span>
+        </div>
+        <div class="total-row final">
+            <span>Total:</span>
+            <span id="total">TZS 10,000</span>
+        </div>
+        <button class="checkout-btn" id="checkoutBtn">
+            <i class="fab fa-whatsapp"></i> Checkout on WhatsApp
+        </button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <i class="fas fa-tools"></i>
+                    <h3>Engineering Discount Store</h3>
+                </div>
+                <p>Your trusted supplier of engineering tools and equipment for all disciplines. Quality products at affordable prices.</p>
+                <div class="footer-social">
+                    <a href="https://www.threads.com/@fidelis_faustin?xmt=AQGzKzk9u9WY4_av_tnjXfYZ-8lQAW8VyQonjfQA0ih9hM" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/255763782257" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Categories</a></li>
+                    <li><a href="#products"><i class="fas fa-chevron-right"></i> Products</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Civil Engineering</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Electrical Engineering</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Mechanical Engineering</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Computer Engineering</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Information Technology</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Oil & Gas Engineering</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Mining Engineering</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i> Laboratory Engineering</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <ul class="footer-contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Dar es Salaam, Tanzania</li>
+                    <li><i class="fas fa-envelope"></i> info@engineeringdiscount.co.tz</li>
+                    <li><i class="fab fa-whatsapp"></i> +255 763 782 257</li>
+                    <li><i class="fas fa-phone"></i> +255 621 951 152</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Engineering Discount Store Tanzania | All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
